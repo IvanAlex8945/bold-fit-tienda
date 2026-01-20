@@ -243,7 +243,7 @@ if not df_filtrado.empty:
                     with col_btn1:
                         st.link_button("🛍️ Pedir a Vendedor 1", link_wa1)
                     with col_btn2:
-                        st.link_button("🛍️ Pedir a Vendedor 2", link_wa2)
+                        st.link_button("🛍️ Pedir a Vendedora 2", link_wa2)
 else:
     st.info("No hay productos disponibles.")
 
@@ -258,7 +258,8 @@ with col_f1:
 
 with col_f2:
     st.markdown("### 📞 Contacto")
-    st.caption("WhatsApp: 951 119 8303")
+    st.caption("WhatsApp1: 951 119 8303")
+    st.caption("WhatsApp2: 951 472 0440")
     st.caption("Horario: 9:00 AM - 8:00 PM")
 
 with col_f3:
@@ -268,3 +269,4 @@ with col_f3:
 
 st.markdown("<br><center style='color:#555;'>© 2024 BOLD FIT - Ingeniería en Moda Deportiva</center>",
             unsafe_allow_html=True)
+
