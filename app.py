@@ -279,7 +279,7 @@ st.markdown(
             position: fixed;
             width: 60px;
             height: 60px;
-            bottom: 20px;
+            bottom: 80px; /* <--- Subimos de 20px a 80px para que no lo tape Streamlit */
             right: 20px;
             background-color: #25d366;
             color: #FFF !important;
@@ -305,4 +305,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
