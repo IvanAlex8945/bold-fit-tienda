@@ -270,3 +270,39 @@ with col_f3:
 st.markdown("<br><center style='color:#555;'>© 2024 BOLD FIT - Ingeniería en Moda Deportiva</center>",
             unsafe_allow_html=True)
 
+# --- BOTÓN FLOTANTE DE WHATSAPP (Añadir al final de app.py) ---
+st.markdown(
+    """
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style>
+        .float-wa {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #FFF !important;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #000;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none !important;
+            transition: all 0.3s ease;
+        }
+        .float-wa:hover {
+            background-color: #128c7e;
+            transform: scale(1.1);
+        }
+    </style>
+    <a href="https://wa.me/529511198303" class="float-wa" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
+
